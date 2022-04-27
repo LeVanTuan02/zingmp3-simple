@@ -1,0 +1,17 @@
+:root {
+    --primary-color: #061D4F;
+    --sidebar-width: 240px;
+}
+
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Inter', sans-serif;
+}
