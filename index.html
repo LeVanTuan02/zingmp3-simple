@@ -500,26 +500,6 @@
                 panel.classList.add('active');
             }
         });
-
-        // xử lý f12
-        document.onkeydown = function(event) {
-            if (
-                (event.ctrlKey && event.shiftKey && event.keyCode == 73) ||
-                (event.ctrlKey && event.keyCode == 85) ||
-                (event.keyCode == 123)
-            ) {
-                alert('Hehe');
-                window.location.href="https://www.facebook.com/LeVanTuan.Info/";
-            }
-        }
-
-        document.onmouseup = function(event) {
-            if (event.which == 3) {
-                alert('Hehe');
-                window.location.href="https://www.facebook.com/LeVanTuan.Info/";
-            }
-        }
-
     </script>
 </body>
 </html>
